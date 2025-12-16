@@ -212,7 +212,7 @@ If you use this repo in your work, please cite:
 ```
 @misc{parsibench2025,
   title={ParsiBench: Method-Supervised Tool Use for LLM Agents},
-  author={...},
+  author={Aarush Yadav},
   year={2025},
   howpublished={GitHub repository}
 }
