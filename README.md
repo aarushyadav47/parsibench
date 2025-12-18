@@ -56,9 +56,7 @@ A small deterministic sandbox:
 
 ---
 
-## Results (example)
-
-Below are the target “ideal” outcomes once the benchmark enforces tool necessity and evidence coverage:
+## Results
 
 |   Agent | Family   |   Success | Avg Tool Calls | Avg Avoidable Calls |
 | ------: | :------- | --------: | -------------: | ------------------: |
@@ -89,7 +87,7 @@ ParsiBench v0 uses “certificates” embedded in each task instance to label to
 * **evmin:** a fetch from a required doc that has not been covered yet is necessary; additional fetches are avoidable/redundant.
 * **sample95:** sampling is necessary until `n_min` is reached; additional samples are avoidable.
 
-v0 intentionally prioritizes **determinism and dense supervision** over realism. Counterfactual labeling is a planned extension.
+v0 intentionally prioritizes **determinism and dense supervision** over realism.
 
 ---
 
